@@ -3170,7 +3170,17 @@ li {
 
 
 
+.blog-details__main {
+	padding-top: 120px;
+	padding-bottom: 170px;
+	position: relative;
+}
 
+.blog-details__content h4 {
+	color: var(--thm-black);
+	font-size: 30px;
+	font-weight: 500;
+}
 
 .blog-details__content .blog-one__meta {
 	display: -webkit-box;
@@ -3203,15 +3213,6 @@ li {
 .blog-details__content .blog-one__meta a+a {
 	margin-left: 15px;
 }
-
-.blog-details__content h3 {
-	color: var(--thm-black);
-	font-size: 40px;
-	line-height: 56px;
-	margin-bottom: 32px;
-	font-family: var(--heading-font);
-}
-
 
 
 .blog-details__content p+p {
@@ -3766,4 +3767,10 @@ li {
 
 .sidebar__tags-list-item a:hover {
 	color: var(--thm-black);
+}
+
+.presentation {
+	padding-top: 120px;
+	padding-bottom: 170px;
+	position: relative;
 }
